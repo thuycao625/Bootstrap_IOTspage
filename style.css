@@ -1,0 +1,267 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+}
+
+.slide {
+  position: relative;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  height: 80px;
+  margin-top: 30px;
+  margin-right: 100px;
+  display: flex;
+  position: absolute;
+  z-index: 1 !important;
+  width: 100%;
+  background: transparent;
+  top: 0;
+  color: white;
+}
+
+
+.text {
+      text-align: center;
+    /* margin-left: 113px; */
+    height: 73px;
+    margin-top: 257px;
+    /* margin-right: 197px; */
+    position: absolute;
+    z-index: 1 !important;
+    width: 100%;
+    background: transparent;
+    text-transform:uppercase;
+    top: 0;
+    color: white;
+}
+
+.header .logo {
+  width: 40%;
+  margin-left: 88px;
+  margin-top: -9px;
+}
+
+.header .right-header {
+  width: 60%;
+}
+
+.header .logo a img {
+  width: 200px;
+}
+.header .right-header .info {
+  display: flex;
+}
+.header .right-header .info span {
+  margin-right: 103px;
+  margin-left: -71px;
+  font-size: 14px;
+}
+
+.header .right-header .menu {
+  display: flex;
+}
+
+.header .right-header .menu div {
+  margin-right: 102px;
+  margin-top: 10px;
+  margin-left: -72px;
+  font-size: 14px;
+}
+
+.tittle {
+  height: 100px;
+  margin-left: 80px;
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+.tittle .tt2 {
+  display: flex;
+}
+
+.tittle .tt2 div {
+  margin-right: 50px;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.card span {
+  margin-left: 40px;
+}
+.content .card .title {
+  margin-top: 5px;
+  font-size: 0.9375rem;
+  color: #2c2c2c;
+  display: block;
+  font-weight: bold;
+}
+.card .until-price {
+  margin-top: 5px;
+  font-size: 0.9375rem;
+  color: #2c2c2c;
+  display: block;
+  font-family: "UTMNeutra";
+}
+.card .price {
+  margin-top: 5px;
+  font-size: 0.9375rem;
+  color: #2c2c2c;
+  display: block;
+  font-family: "UTMNeutra";
+}
+.card .more {
+  margin-top: 5px;
+  font-size: 0.9375rem;
+  color: #2c2c2c;
+  display: block;
+  font-family: "UTMNeutra";
+  color: #0080ff;
+}
+
+.card .more::after {
+  content: " » ";
+  color: #0080ff;
+}
+
+.content {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+.s-space {
+  margin-left: -1px;
+  margin-right: 50px;
+  height: 100px;
+  text-transform: uppercase;
+  font-size: 37px;
+  font-weight: bold;
+  color: #666666;
+}
+#row {
+  margin-left: -63px;
+  margin-top: 21px;
+  margin-right: 21px;
+}
+
+.event {
+  height: 300px;
+  display: flex;
+  margin-left: 82px;
+  margin-top: 87px;
+}
+.project {
+  height: 300px;
+  display: flex;
+  margin-left: 82px;
+  margin-top: 87px;
+}
+.event .title {
+  width: 30%;
+}
+.project .title {
+  width: 30%;
+}
+.project .title .ttt h1 {
+  font-size: 2.1875rem;
+  font-family: "UTMNeutra";
+  color: #2c2c2c;
+  line-height: 3.125rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 46px;
+}
+
+.event .title .ttt h1 {
+  font-size: 2.1875rem;
+  font-family: "UTMNeutra";
+  color: #2c2c2c;
+  line-height: 3.125rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 46px;
+}
+
+.title .more {
+  color: #0080ff;
+  margin-bottom: 30px;
+}
+
+.title .more::after {
+  content: " » ";
+  color: #0080ff;
+}
+.event .slide {
+  width: 70%;
+  margin-left: 100px;
+}
+.project .slide {
+  width: 70%;
+  margin-left: 100px;
+}
+
+.notify {
+  height: 150px;
+  margin-left: 82px;
+  margin-top: 87px;
+}
+
+.notify .title {
+  margin-top: 40px;
+  font-size: 0.9375rem;
+  font-family: "UTMNeutra";
+  color: #2c2c2c;
+  line-height: 1.4375rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#item {
+  height: 100px
+  padding: 0px;
+  margin: 0;
+}
+
+.content .title {
+  font-size: 2.1875rem;
+  font-family: "UTMNeutra";
+  color: #2c2c2c;
+  line-height: 3.125rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 46px;
+}
+.introduction {
+  margin-left: 89px;
+}
+.content .info {
+  margin-top: 25px;
+}
+
+.content .info span {
+  margin-bottom: 30px;
+}
+
+.listmenu {
+  list-style-type: none;
+  max-width: 18.75rem;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.listmenu li {
+  width: 50%;
+  margin-top: 10px;
+}
